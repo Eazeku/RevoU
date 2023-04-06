@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Matematika</title>
+    <link rel="stylesheet" href="indexjajar.css" />
+    <script src="indexjajar.js" defer></script>
+  </head>
+  <body>
+    <h1>Selamat datang di katik</h1>
+    <p>Sebuah web untuk menghitung luas dan keliling bangun datar</p>
+    <div>
+      <a href="index.html"><button>Segitiga</button></a>
+      <a href="indexjajar.html"><button>Jajar Genjang</button></a>
+    </div>
+    <div id="hitungluasjajar">
+      <h1>Hitung Luas Jajar Genjang</h1>
+      <img
+        src="https://i.pinimg.com/736x/4b/b8/db/4bb8db7a6ffceb60264309ca1f5164f5.jpg"
+        alt="Gambar rumus jajar genjang"
+      />
+      <p>Masukkan nilai alas dan tinggi jajar genjang</p>
+      <input id="alasjajar" type="text" placeholder="Alas Jajargenjang" />
+      <input id="tinggijajar" type="text" placeholder="Tinggi Jajargenjang" />
+      <button id="submitluasjajar">Hitung</button>
+      <span></span>
+      <p>Luas Jajargenjang adalah</p>
+      <p id="resultluasjajar"></p>
+    </div>
+    <button id="resetluasjajar">Reset</button>
+
+    <h1>Hitung Luas Keliling Jajar Genjang</h1>
+    <p>Masukkan Nilai a dan b pada kolom dibawah :</p>
+    <input id="sisiA" type="text" placeholder="Masukkan sisi A" />
+    <input id="sisiB" type="text" placeholder="Masukkan sisi B" />
+    <button id="submitkelilingjajar">Hitung</button>
+    <p>Keliling Jajargenjang adalah</p>
+    <p id="resultkelilingjajar"></p>
+    <button id="resetkelilingjajar">Reset</button>
+  </body>
+</html>

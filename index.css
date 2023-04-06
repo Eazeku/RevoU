@@ -1,0 +1,12 @@
+body {
+    background-color: skyblue;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+#submit {background-color: #4CAF50;}
+#resetluas {background-color: red;}
